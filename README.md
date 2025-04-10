@@ -4,6 +4,18 @@
 
 QVEMA est un projet réalisé dans le cadre d'un cours sur le framework [NestJS](https://nestjs.com). Ce projet vise à démontrer les concepts fondamentaux de NestJS tout en construisant une application serveur efficace et évolutive.
 
+## Documentation API
+
+Une fois le projet lancé, la documentation Swagger est accessible à l'URL suivante : [https://localhost:3000/api](https://localhost:3000/api)
+
+## Clonage du dépôt
+
+Pour cloner ce dépôt, exécutez la commande suivante :
+
+```bash
+$ git clone https://github.com/BDanielo/projet-cours-nestjs.git
+```
+
 ## Installation
 
 Pour installer les dépendances du projet, exécutez la commande suivante :
@@ -24,6 +36,12 @@ $ npm run start
 
 ```bash
 $ npm run start:dev
+```
+
+### Lancer la base de données MySQL
+
+```bash
+$ docker-compose up -d
 ```
 
 ### Mode production
